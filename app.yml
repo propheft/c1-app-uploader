@@ -3,10 +3,10 @@ kind: Service
 metadata:
   annotations:
     service.beta.kubernetes.io/aws-load-balancer-name: c1-app-uploader
-    service.alpha.kubernetes.io/tolerate-unready-endpoints: "true"
-    service.beta.kubernetes.io/aws-load-balancer-backend-protocol: http
-    service.beta.kubernetes.io/aws-load-balancer-ssl-ports: 443
-    service.beta.kubernetes.io/aws-load-balancer-ssl-cert: arn:aws:acm:eu-west-1:325436486329:certificate/ef2556f5-ca04-4aa1-aa8d-1e0304ba141d
+    #service.alpha.kubernetes.io/tolerate-unready-endpoints: "true"
+    #service.beta.kubernetes.io/aws-load-balancer-backend-protocol: http
+    #service.beta.kubernetes.io/aws-load-balancer-ssl-ports: 443
+    #service.beta.kubernetes.io/aws-load-balancer-ssl-cert: arn:aws:acm:eu-west-1:325436486329:certificate/ef2556f5-ca04-4aa1-aa8d-1e0304ba141d
   name: c1-app-uploader
   labels:
     app: c1-app-uploader
