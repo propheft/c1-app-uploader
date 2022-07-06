@@ -41,10 +41,10 @@ node {
               ]
           ]).toString(),
           findingsThreshold: new groovy.json.JsonBuilder([
-            malware: 1,
+            malware: 0,
             vulnerabilities: [
               defcon1: 0,
-              critical: 50,
+              critical: 10,
               high: 250,
             ],
             contents: [
